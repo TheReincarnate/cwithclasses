@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+return 0;
+}
+	int x, y;
+	cout << "Enter the name of your friends";
+	getlined(cin, 50);
+	return 0;
+
+}
+
