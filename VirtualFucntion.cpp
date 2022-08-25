@@ -39,14 +39,18 @@ int main()
     CTriangle trgl;
     CPolygon poly;
     CPolygon *ppoly;
-    // ppoly = &rect;
-    rect.set_values(4, 5);
-    cout << rect.area() << endl;
+
+    ppoly = &rect;
+    ppoly->set_values(4, 5);
+    cout << ppoly->area() << endl;
+
     ppoly = &trgl;
     ppoly->set_values(4, 5);
     cout << ppoly->area() << endl;
+
     ppoly = &poly;
     ppoly->set_values(4, 5);
     cout << ppoly->area() << endl;
+
     return 0;
 }
